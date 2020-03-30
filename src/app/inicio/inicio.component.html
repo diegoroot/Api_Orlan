@@ -1,0 +1,31 @@
+<mat-grid-list cols="3">
+  <mat-grid-tile>
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{titulo}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image [src]="img">
+    <mat-card-content>
+      <p>
+        {{cont}}
+      </p>
+    </mat-card-content>
+  </mat-card>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>Importancia del IoT en la agricultura</mat-card-title>
+      </mat-card-header>
+      <img mat-card-image [src]="img1">
+      <mat-card-content>
+        <p>
+          {{cont1}}
+        </p>
+      </mat-card-content>
+    </mat-card>
+    </mat-grid-tile>
+</mat-grid-list>
+

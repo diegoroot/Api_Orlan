@@ -1,0 +1,8 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://informesinternet.com/wp-content/uploads/2019/07/iot-830x547.png');
+    background-size: cover;
+  }

@@ -1,0 +1,27 @@
+
+      <span class="table-head">
+         Registros existentes
+       </span>
+
+      <div class="container" style="overflow-x:auto; text-align:center;">
+         <br>
+         <br>
+        <table style="width: 85%;border-collapse: collapse;border: 1px solid black;">
+          <thead>
+            <tr style="border: 1px solid black;">
+              <th style="border: 1px solid black;">Reg_Id</th>
+              <th style="border: 1px solid black;">Reg_Tem</th>
+              <th style="border: 1px solid black;">Reg_Hum</th>
+              <th style="border: 1px solid black;">Reg_Fec</th>
+            </tr>
+          </thead>
+          <tbody style="border: 1px solid black;">
+            <tr *ngFor="let data of lista" style="border: 1px solid black;"> 
+              <td style="border: 1px solid black;">{{data.Reg_Id}}</td>
+              <td style="border: 1px solid black;">{{data.Reg_Tem}}</td>
+              <td style="border: 1px solid black;">{{data.Reg_Hum}}</td>
+              <td style="border: 1px solid black;">{{data.Reg_Fec}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
