@@ -45,6 +45,7 @@ export class GraficasComponent implements OnInit {
       }, {
         type: 'line',
         label: 'Humedad',
+        console.log("hola");
         id: "y-axis-1",
         backgroundColor: "rgba(151,187,205,0.5)",
         data: this.hum
