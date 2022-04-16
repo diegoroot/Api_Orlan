@@ -34,7 +34,6 @@ export class GraficasComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log("hola");
     var barChartData = {
       labels: this.col,
       datasets: [{
@@ -51,7 +50,7 @@ export class GraficasComponent implements OnInit {
         data: this.hum
       }]
     };
-    
+    console.log("hola");
     
     var ctx = document.getElementById("grafica");
     // allocate and initialize a chart
