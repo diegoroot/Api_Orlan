@@ -50,7 +50,6 @@ export class GraficasComponent implements OnInit {
         data: this.hum
       }]
     };
-    console.log("hola");
     
     var ctx = document.getElementById("grafica");
     // allocate and initialize a chart
