@@ -34,6 +34,7 @@ export class GraficasComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    console.log("hola");
     var barChartData = {
       labels: this.col,
       datasets: [{
@@ -45,7 +46,6 @@ export class GraficasComponent implements OnInit {
       }, {
         type: 'line',
         label: 'Humedad',
-        console.log("hola");
         id: "y-axis-1",
         backgroundColor: "rgba(151,187,205,0.5)",
         data: this.hum
